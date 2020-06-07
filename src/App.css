@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(8, 100px);
+  grid-template-rows: repeat(8, 100px);
+}
+
+.light {
+  background-color: grey;
+}
+
+.dark {
+  background-color: black;
+}
+
+.place {
+  border: 2px solid black;
+}
+
+.selectedSource {
+  background-color: blueviolet !important;
+}
